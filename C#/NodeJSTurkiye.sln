@@ -5,6 +5,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4", "MVC4\MVC4.csproj", "{21D7AB06-34B7-49B1-A935-CB4F4CF73681}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTest", "LoadTest\LoadTest.csproj", "{E9A85682-6459-4B09-A79C-2C0439BEFE45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{941A28F2-5DF2-4080-AEDD-16DA0D121FB2}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +26,10 @@ Global
 		{21D7AB06-34B7-49B1-A935-CB4F4CF73681}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21D7AB06-34B7-49B1-A935-CB4F4CF73681}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21D7AB06-34B7-49B1-A935-CB4F4CF73681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A85682-6459-4B09-A79C-2C0439BEFE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A85682-6459-4B09-A79C-2C0439BEFE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A85682-6459-4B09-A79C-2C0439BEFE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A85682-6459-4B09-A79C-2C0439BEFE45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
