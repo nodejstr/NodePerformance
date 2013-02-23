@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MVC4.Models.Person>
+<h2>Hello Node.JS</h2>
+@foreach (var item in Model)
+{
+    @Html.DisplayFor(modelItem => item.Id) <span>, </span>
+    @Html.DisplayFor(modelItem => item.Name) <span>, </span>
+    @Html.DisplayFor(modelItem => item.Address)
+    <p />
+}
