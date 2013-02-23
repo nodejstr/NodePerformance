@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication2
+namespace ConsoleTest
 {
     class Program
     {
